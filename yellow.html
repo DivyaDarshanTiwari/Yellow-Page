@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="yellow.css">
+    <style>
+        .collapsible {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            text-align: left;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .collapsible.active {
+            background-color: #333;
+        }
+
+        .content {
+            display: none;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .fff{
+            background-color: #fff;
+            display: block;
+            align-items: right;
+            margin-bottom: 30px;
+        }
+        .attraction-image{
+            width: 400px;
+            float: left;
+            display: flex;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>YourYellow - Discover Lucknow</h1>
+        <nav>
+            <ul style="float: right;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="search-form" action="#" method="GET">
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2>Welcome to LUCKNOW <br>  Your Ultimate City Guide!</h2>
+    <section>
+        <p>Are you looking for a one-stop destination to discover everything about your favorite city or explore new places? Look no further! YourYellow is your go-to resource for all things related to cities and locations. Whether you're a traveler planning your next adventure, a local looking for hidden gems, or a curious explorer eager to learn more, our platform is designed to provide you with comprehensive information about places, businesses, and attractions in cities all around the world.</p>
+    </section>
+</main>
+
+<h2 style="color: antiquewhite;">History of Lucknow</h2>
+
+<section id="history">
+    <p>Lucknow is a city with a rich and vibrant history. It is believed to have been founded in the 11th century by a Rajput king named Lakshmana Sena. The city flourished under the rule of the Nawabs of Awadh in the 18th and 19th centuries. During this time, Lucknow became a center of culture and refinement, known for its poetry, music, and cuisine.</p>
+    <p>Lucknow also played an important role in the Indian Rebellion of 1857. The city was besieged by British forces for several months, and many of its residents were killed. After the rebellion, Lucknow was placed under British rule.</p>
+    <p>Today, Lucknow is a thriving city with a population of over 3 million people. It is the capital of the Indian state of Uttar Pradesh and a major center of commerce and culture. The city is home to a number of historical monuments, gardens, and museums, as well as a vibrant arts and culture scene.</p>
+</section>
+
+<br>
+
+<h2 style="text-align: center;color: antiquewhite;">City Attractions</h2>
+
+</section>
+<hr>
+<br>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event,'Attraction')">Attraction</button>
+    <button class="tablinks" onclick="openCity(event,'Food')">Food & <br> Beverages</button>
+    <button class="tablinks" onclick="openCity(event,'Beauty')">Beauty</button>
+    <button class="tablinks" onclick="openCity(event,'Education')">Education</button>
+    <button class="tablinks" onclick="openCity(event,'Hospital')">Hospitals</button>
+  </div>
+
+<!-- for the attraction tab -->
+<div id="Attraction" class="tabcontent">
+  <div class="fff">
+    <div class="attraction-image">
+        <img src="imambara.jpg" alt="Attraction 1">
+    </div>
+    <h3>Bara Imambara</h3>
+    <p>This large structure was built by Nawab Asaf-ud-Daula in 1784 and is one of the architectural wonders of that era. Its central hall is said to be the largest vaulted chamber in the world. Except for the galleries in the interior, there is no woodwork in the entire structure. It is now used by Shia Muslims for the purpose of Azadari.
+
+      It has large underground passages which have been blocked up. A staircase from outside leads to a series of labyrinths known as Bhool-Bhulaiya, which is a complicated entanglement of zig-zag passages. Visitors are allowed to visit only with authorized guides. Within the compound of the Imambara is the grand Asafi Mosque. Shahi Baoli is another attraction here.</p>
+      <div class="attraction-details">
+        Location: VW86+MQ3, Husainabad Trust Rd, Machchhi Bhavan, Lucknow, Uttar Pradesh 226003<br>
+        Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+        Contact: +1 123-456-7890
+      </div>
+
+      <br><br><br><br><br>
+
+    <div class="attraction-image">
+        <img src="Janeshwar Mishra Park.jpg" alt="Attraction 2">
+    </div>
+
+    <div class="attraction-description">
+        <h3>Janeshwar Mishra Park</h3>
+        <p>The architectural and development blueprint has been drafted by the prestigious New Delhi-based School of Planning and Architecture. The park has a long meandering walkway. There is an exclusive cycle track running over with cycle parking facility. Also, there are jogging track that can be used by professional athletes.</p>
+      <div class="attraction-details">
+        Location: Gomti Nagar, Lucknow, Ujariyaon, Uttar Pradesh 226010<br>
+        Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+        Contact: +1 123-456-7890
+    </div>
+  </div>
+  <br><br><br><br>
+  <p>For more Attraction that you can visit click int the link below</p>
+  <a href="https://www.holidify.com/places/lucknow/sightseeing-and-things-to-do.html">Click Here</a>
+</div>
+
+<!-- for food and beverages tab -->
+<div id="Food" class="tabcontent">
+    <div class="fff">
+        <h3>Tunday</h3>
+        <p>
+            Haji Murad Ali had only one arm. When he was young, he fell from the terrace while flying a kite and lost his left arm. In vernacular, any person with a hand disability is referred to as a 'tunday'. Thus, the kebabs he made were called Tunday ke kebabs.
+        </p>
+    </div>
+</div>
+
+<script>
+    function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+</script>
+</body>
+</html>
