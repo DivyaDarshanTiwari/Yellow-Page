@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(Lucknow.jpg);
+    background-size: 1500px 900px;
 }
 
 
@@ -21,13 +22,16 @@ header {
     color: #fff;
     text-align: center;
     padding: 30px 30px;
+    border-radius: 10px;
+    opacity: 0.85;
 }
 
 
 /* Style the navigation menu */
 nav {
-    background-color: #333;
+    background-color: #000000;
     color: #fff;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -38,6 +42,7 @@ nav ul {
 
 nav li {
     margin: 0 20px;
+    margin-top: -21px;
 }
 
 nav a {
@@ -124,10 +129,13 @@ section {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #333;
+  background-color: #525050;
   display: flex; /* Change to flex */
   justify-content: space-between;
   padding: 0; /* Remove padding */
+  size: flex;
+  opacity: 70%;
+  border-radius: 10px;
 }
 
 /* Style the buttons inside the tab */
@@ -159,11 +167,12 @@ section {
 }
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: #131313;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
+    opacity: 0.9;
+    
+  }
+
 
 body {font-family: Arial;}
 
@@ -171,4 +180,15 @@ body {font-family: Arial;}
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+}
+
+
+.funfacts div{
+  border: 2px solid black;
+  padding: 20px;
+}
+.funfacts img{
+  width: 700px;
+  height: 450px;
+  border: 2px solid black;
 }
