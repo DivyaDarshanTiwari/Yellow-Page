@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .content {
+            display: none;
+            overflow: hidden;
+            padding: 10px;
+        }
+        .fff{
+            background-color: #fff;
+            display: block;
+            align-items: right;
+            margin-bottom: 30px;
+        }
+        .attraction-image{
+            width: 400px;
+            float: left;
+            display: flex;
+            padding: 8px;
+        }
+
+        .columns{
+            float: left;
+            display: block;
+            justify-content:space-between ;
+            padding: 20px;
+            width: 50%;
+            color: rgb(250, 250, 250);
+        }
+        #cen{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px;
+            margin: 0px;
+        }
+        .tablinks img {
+            width: 100px; /* Set your desired width */
+            height: 100px; /* Set your desired height */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1> Discover Lucknow</h1>
+        <nav>
+            <ul style="float: right;">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form class="search-form" action="#" method="GET">
+                <input type="text" name="search" placeholder="Search...">
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <h2>Welcome to LUCKNOW <br>  Your Ultimate City Guide!</h2>
+    <section>
+        <p>Are you looking for a one-stop destination to discover everything about your favorite city or explore new places? Look no further! YourYellow is your go-to resource for all things related to cities and locations. Whether you're a traveler planning your next adventure, a local looking for hidden gems, or a curious explorer eager to learn more, our platform is designed to provide you with comprehensive information about places, businesses, and attractions in cities all around the world.</p>
+    </section>
+</main>
+
+<h2 style="color: antiquewhite;">History of Lucknow</h2>
+
+<section id="history">
+    <p>Lucknow is a city with a rich and vibrant history. It is believed to have been founded in the 11th century by a Rajput king named Lakshmana Sena. The city flourished under the rule of the Nawabs of Awadh in the 18th and 19th centuries. During this time, Lucknow became a center of culture and refinement, known for its poetry, music, and cuisine.</p>
+    <p>Lucknow also played an important role in the Indian Rebellion of 1857. The city was besieged by British forces for several months, and many of its residents were killed. After the rebellion, Lucknow was placed under British rule.</p>
+    <p>Today, Lucknow is a thriving city with a population of over 3 million people. It is the capital of the Indian state of Uttar Pradesh and a major center of commerce and culture. The city is home to a number of historical monuments, gardens, and museums, as well as a vibrant arts and culture scene.</p>
+</section>
+
+<br>
+
+<h2 style="text-align: center;color: antiquewhite;font-size: 35px; ">City</h2>
+
+</section>
+<hr>
+<p style="text-align: center;color: antiquewhite;font-size: large;">This Section is for the Exploration </p>
+<br>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event,'Attraction')"><img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_ZSVSqm-MJ3wedcITRe7dPbQEUO8-nSG4iA&usqp=CAU" width="10px" height="100px"><br>Attraction</button>
+    <button class="tablinks" onclick="openCity(event,'Food')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxjWqvniF9qhhb-BNDmeWROJ2LlkvEmoRciA&usqp=CAU" width="10px" height="100px"><br>Food <br> & <br> Bevrages</button>
+    <button class="tablinks" onclick="openCity(event,'Beauty')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6qL5lQHr22w0JbgOBydEie0_rTIgUoKCKtA&usqp=CAU" width="10px" height="100px"><br>Beauty Salons</button>
+    <button class="tablinks" onclick="openCity(event,'Education')"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV43V52HYSX2u1ebkOxvrz8waJtZBKO7C_CA&usqp=CAU" width="10px" height="100px"><br>Education</button>
+    <button class="tablinks" onclick="openCity(event,'Hospital')"><img src="https://thumbs.dreamstime.com/b/hospital-pin-icon-hospital-map-point-hospital-pin-icon-hospital-map-point-184470275.jpg" width="10px" height="100px"><br>Hospitals</button>
+  </div>
+
+<!-- for the attraction tab -->
+<div id="Attraction" class="tabcontent">
+    <div class="attraction-image">
+        <img src="imambara.jpg" alt="Attraction 1">
+    </div>
+    <h3>Bara Imambara</h3>
+    <p>This large structure was built by Nawab Asaf-ud-Daula in 1784 and is one of the architectural wonders of that era. Its central hall is said to be the largest vaulted chamber in the world. Except for the galleries in the interior, there is no woodwork in the entire structure. It is now used by Shia Muslims for the purpose of Azadari.
+
+      It has large underground passages which have been blocked up. A staircase from outside leads to a series of labyrinths known as Bhool-Bhulaiya, which is a complicated entanglement of zig-zag passages. Visitors are allowed to visit only with authorized guides. Within the compound of the Imambara is the grand Asafi Mosque. Shahi Baoli is another attraction here.</p>
+      <div class="attraction-details">
+        Location: VW86+MQ3, Husainabad Trust Rd, Machchhi Bhavan, Lucknow, Uttar Pradesh 226003<br>
+        Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+        Contact: +1 123-456-7890
+      </div>
+
+      <br><br><br><br><br><hr>
+
+    <div class="attraction-image">
+        <img src="Janeshwar Mishra Park.jpg" alt="Attraction 2">
+    </div>
+
+    <div class="attraction-description">
+        <h3>Janeshwar Mishra Park</h3>
+        <p>The architectural and development blueprint has been drafted by the prestigious New Delhi-based School of Planning and Architecture. The park has a long meandering walkway. There is an exclusive cycle track running over with cycle parking facility. Also, there are jogging track that can be used by professional athletes.</p>
+      <div class="attraction-details">
+        Location: Gomti Nagar, Lucknow, Ujariyaon, Uttar Pradesh 226010<br>
+        Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+        Contact: +1 123-456-7890
+    </div>
+  </div>
+  <br><br><br><br>
+  <p>For more Attraction that you can visit click int the link below</p>
+  <a href="https://www.holidify.com/places/lucknow/sightseeing-and-things-to-do.html">Click Here</a>
+</div>
+<!-- for food and beverages tab -->
+<div id="Food" class="tabcontent">
+       <div>
+        <div class="attraction-image" >
+        <img src="https://b.zmtcdn.com/data/pictures/2/18568262/9da4b64d371df2c596893b05fb67f62c.jpg" alt="tunday kabab">
+        </div>
+        <h3>Tunday</h3>
+        <p>
+            Haji Murad Ali had only one arm. When he was young, he fell from the terrace while flying a kite and lost his left arm. In vernacular, any person with a hand disability is referred to as a 'tunday'. Thus, the kebabs he made were called Tunday ke kebabs.Her eyou will get the most famous food of lucknow the <i>Tunday Kabab.</i>
+        </p>
+        <div class="attraction-details">
+            <a href="https://www.google.com/maps/place/Tunday+Kababi/@26.8482917,80.9247124,17z/data=!3m1!4b1!4m6!3m5!1s0x399bfdba3bc2fc11:0x2c78bfb2bb175a1c!8m2!3d26.8482869!4d80.9272873!16s%2Fg%2F119wpqrtc?entry=ttu">Location</a> 168/6, Old Nazirabad Rd, Mohan Market, Khayali Ganj, Aminabad, Lucknow, Uttar Pradesh 2260183<br>
+            Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+            Contact: 0522 430 7223 <br>
+            Site: <a href="https://www.tundaykababi.com/">Tunday Kabab .com</a>
+        </div>
+       </div>
+       <br><br><br><br><br><br>
+       <div>
+        <div class="attraction-image">
+            <img src="https://www.lucknowportal.com/wp-content/uploads/Royal-Cafe-Hazratganj-Lucknow.jpg" alt="royal cafe">
+        </div>
+        <div>
+            <h3>Royal Cafe</h3>
+            <p>
+            Royal Cafe is a popular dining destination and one of the best Coffee Shops, Fast Food Restaurants, and Family Style Restaurants in Lucknow, Uttar Pradesh, India. The restaurant chain is known for its delicious food, stylish decor, and friendly service. Whether you’re in the mood for a quick bite or a full meal, Royal Cafe offers a wide range of dishes to suit every taste
+            </p>
+            <div class="attraction-details">
+                <a href="https://www.google.com/maps/place/Royal+Cafe/@26.8521615,80.9392288,16z/data=!4m10!1m2!2m1!1sroyal+cafe+hazratganj!3m6!1s0x399bfd081affd285:0xcb1998435da33544!8m2!3d26.8480075!4d80.9437608!15sChVyb3lhbCBjYWZlIGhhenJhdGdhbmoiA4gBAVoXIhVyb3lhbCBjYWZlIGhhenJhdGdhbmqSARRmYXN0X2Zvb2RfcmVzdGF1cmFudOABAA!16s%2Fg%2F11c2py7t2t?entry=ttu">Location</a> 51, Mahatma Gandhi Marg, Sushanpura, Hazratganj, Lucknow, Uttar Pradesh 226001<br>
+                Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+                Contact: 0522 430 7223 <br>
+                Site: <a href="https://www.royalcafe.in/"> RoyalCafe.com</a>
+            </div>
+        </div>
+       </div>
+       <div>
+        <br><br><br><br><br><br>
+       <p>For more Attraction that you can visit click int the link below</p>
+       <a href="https://www.holidify.com/pages/lucknow-food-1653.html">Click Here</a>
+       </div>
+</div>
+
+<!-- For salon -->
+<div id="Beauty" class="tabcontent">
+    <div class="attraction-image">
+    <img src="https://lh3.googleusercontent.com/p/AF1QipPnGxpU7F1MU1r2y3gS1TziQ_kqCG9TH-Rpq_Zy=w1080-h608-p-no-v0" alt="">
+    </div>
+    <h3>Habib</h3>
+    <p>This the worlds famous brand you can find in Lucknow. Ther are many centers you can find here . Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima tempore inventore harum officia officiis impedit aut corrupti consectetur amet, quibusdam omnis cupiditate aspernatur esse soluta ullam commodi, maxime libero repellendus. </p>
+    <div class="attraction-details">
+        <a href="https://www.google.com/maps/search/jawaed+habib+lucknow/@26.8471718,80.9281776,13z/data=!3m1!4b1?entry=ttu">Location</a> First Floor, 5/599, Vikaskhand 5, Gwari Village, Vikas Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010<br>
+        Opening Hours: Monday-Saturday, 9:00 AM - 6:00 PM<br>
+        Contact: 0522 430 7223 <br>
+        Site: <a href="https://jawedhabiblucknow.in/"> JawedhabibLko.com</a>
+    </div>
+    <br><br><br>
+    <p>For more salons that you can visit click int the link below</p>
+    <a href="https://www.justdial.com/Lucknow/Salons/nct-10418299">Click Here</a>
+    </div>
+</div>
+
+<!-- for education -->
+
+<div id="Education" class="tabcontent">
+    <div class="attraction-image">
+        <img src="https://yt3.googleusercontent.com/ytc/AOPolaSPmlihpUp8SOWCoP6sYvgRVNNSBNBJ6Un9JiDsuw=s900-c-k-c0x00ffffff-no-rj" alt="">
+    </div>
+    <h3>City Montessori School</h3>
+    <p>City Montessori School (CMS), a name synonymous with quality education, is the world’s largest school, with over 60,000 students and 4,500 staff across 21 campuses in the city of Lucknow. Founded in 1959 with 5 children on a borrowed capital of 300 Rupees by Dr Jagdish Gandhi and Dr Bharti Gandhi, CMS is affiliated with the Council for Indian School Certificate Examination (CISCE) whose students from Montessori to Class XII achieve some of the best exam results in India. The couple started CMS with a vision to inspire generations of children to become socially motivated and conscious citizens of India and the world. Their motto “Jai Jagat” - 'Hail the World', in contrast to the popular post-Independence greeting, 'Jai Hind' ('Hail India') at the time of school's inception - has been the school's greeting till date. CMS, therefore, places great emphasis on children's all-round development, moral character building, inculcating a global outlook and providing international exposure.</p>
+    <div class="attraction-details">
+        <a href="https://www.google.com/maps/search/CMS+lucknow/@26.847313,80.9281776,13z/data=!3m1!4b1?entry=ttu">Location</a><br>
+        Contact: +91 522 2638738 <br>
+        Site: <a href="https://www.cmseducation.org/"> CMS.com</a>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><hr>
+    <div class="attraction-image">
+        <img src="https://www.trawell.in/admin/images/upload/006238105Lucknow_La_Martiniere_Main.jpg" alt="">
+    </div>
+    <h3>La Martiniere</h3>
+    <p>La Martiniere College, Lucknow, established in 1845, was founded in accordance with the Will of Major General Claude Martin. Born in Lyon, France, in 1735, the Founder died in Lucknow on 13 September, 1800. The day of his death, by his own instructions is commemorated as ‘Founder’s Day’. Under his Will, certain funds were allotted for the establishment of schools at Lyon, his birth place in France, in Calcutta and at Lucknow. </p>
+    <div class="attraction-details">
+        <a href="https://www.google.com/maps/place/La+Martiniere+College/@26.8474228,80.9339999,15z/data=!4m10!1m2!2m1!1slamartniere+luck!3m6!1s0x399bfd1f9bd6e96d:0x9f1aa929f720168b!8m2!3d26.839608!4d80.9630565!15sChVsYSBtYXJ0aW5pZXJlIGx1Y2tub3daFyIVbGEgbWFydGluaWVyZSBsdWNrbm93kgEGc2Nob29smgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJTYWt4SWMyOUJSUkFC4AEA!16zL20vMDhuOXBq?entry=ttu">Location</a> La Martiniere Rd, Martin Purva, Lucknow, Uttar Pradesh 226001<br>
+        Contact: +91 522 2638738 <br>
+        Site: <a href="https://www.lamartinierelucknow.org/"> LaMartiniere.com</a>
+    </div>
+    <br><br><br><br><br><br>
+    <p>For more educational institutes that you can visit click int the link below</p>
+    <a href="https://www.magicbricks.com/blog/best-schools-in-lucknow/132674.html">Click Here</a>
+    </div>
+</div>
+
+<!-- for hospitals -->
+<div id="Hospital" class="tabcontent">
+    <div class="attraction-image">
+        <img src="https://s3.ap-south-1.amazonaws.com/townscript-production/images/2a8f3d96-714f-4a3d-b215-671fcd401d4a.jpg" alt="">
+    </div>
+    <h3>Apollo Hospital</h3>
+    <p>Apollomedics Super Speciality Hospital is located in the heart of Uttar Pradesh, in the city of Lucknow. Apollomedics Super Speciality Hospital is a 330-bedded quaternary care hospital with state-of-the-art modern healthcare facilities. The hospital aims to provides comprehensive, seamless & integrated world class healthcare services. Apollo Hospitals in collaboration with Medics Super Speciality Hospital formed Apollomedics which is a major boost to healthcare infrastructure in the State of Uttar Pradesh.</p>
+    <a href="https://www.google.com/maps/place/Apollo+Hospital,+Lucknow/@26.7982739,80.8989731,17z/data=!3m1!4b1!4m6!3m5!1s0x399bfdf9a6e489ed:0x78068ef244803ad5!8m2!3d26.7982691!4d80.901548!16s%2Fg%2F11q3lwk527?entry=ttu">Location</a> Kanpur - Lucknow Rd, Sector B, Bargawan, LDA Colony, Lucknow, Uttar Pradesh 226012<br>
+    Contact: +91 522 2638738 <br>
+    Site: <a href="https://www.apollohospitals.com/locations/india/lucknow/"> apolloLKO.com</a>
+    <br><br><br>
+    <p>For more Medical institute that you can visit click int the link below</p>
+    <a href="https://www.clinicspots.com/hospitals/lucknow">Click Here</a>
+</div>
+<br>
+<h2 style="text-align: center;">Beauty of our City</h2>
+    <div class="funfacts">
+    <img src="https://storage.googleapis.com/realtyplusmag-news-photo/news-photo/107834.shutterstock_703200205.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1601752874509-0e350467dc7b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bHVja25vdyUyMHV0dGFyJTIwcHJhZGVzaCUyMGluZGlhfGVufDB8fDB8fHww&w=1000&q=80" alt="">
+    <img src="https://thumbs.dreamstime.com/b/lucknow-february-rumi-darwaza-gate-islamic-architecture-built-nawab-asaf-ud-doula-uttar-pradesh-india-219400751.jpg" alt="">
+    <img src="https://cdn.britannica.com/28/170728-050-AD5F144B/Great-Imambara-Lucknow-Uttar-Pradesh-India.jpg" alt="">
+    </div>
+<br>
+<footer>
+    <div class="row">
+        <div class="columns">
+           <h2>How to Contact</h2>
+           <strong>Email:<a href="mailto:ddarshantiwari@gmail.com"><p style="display: inline;"></strong> ddarshantiwari@gmail.com</a></p>
+           <p><strong>Phone:</strong> 7054396386</p>
+           <p><strong>Address:</strong> UPES, Khandoli, Dehradun, Uttarakhand</p>
+        </div>
+        <div class="cloumns" id="cen">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5YjKRNhFdbGC_PvCALIYfhtLPikozjUvTKw&usqp=CAU" alt="insta" style="height: 100px;width: 100px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvpuxPO4bIwBa8roGzLkn5ZdVniXNcYAa7AQ&usqp=CAU" alt="linkden" style="height: 100px;width: 100px;">
+        </div>
+    </div>
+</footer>
+
+<script>
+    function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            if (tabcontent[i].id === cityName) {
+                // Toggle the display of the clicked tab
+                tabcontent[i].style.display = (tabcontent[i].style.display === "block") ? "none" : "block";
+            } else {
+                tabcontent[i].style.display = "none";
+            }
+        }
+
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Add or remove the "active" class based on the tab's current state
+        if (evt.currentTarget.className.includes("active")) {
+            evt.currentTarget.className = evt.currentTarget.className.replace(" active", "");
+        } else {
+            evt.currentTarget.className += " active";
+        }
+    }
+</script>
+
+</body>
+</html>
